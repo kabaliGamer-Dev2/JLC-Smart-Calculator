@@ -1,0 +1,40 @@
+# ==========================================
+# 🛑 Java LLM Calculator (.gitignore)
+# Author: KABALI GAMER
+# ==========================================
+
+# Secrets & Environment Variables
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Build & Compilation Artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+dependency-reduced-pom.xml
+
+# Runtime Data & Local Databases
+calculation_history.json
+calculation_history.csv
+*.log
+logs/
+
+# IDE & Editor Files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary & Scratch Files
+scratch/
+tmp/
+temp/

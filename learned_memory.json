@@ -1,0 +1,137 @@
+{
+  "rules": {
+    "dozen": "12",
+    "baker's dozen": "13",
+    "pair": "2",
+    "score": "20",
+    "century": "100",
+    "half a century": "50",
+    "gross": "144",
+    "grand": "1000"
+  },
+  "examples": [
+    {
+      "input": "What is 25 plus 75?",
+      "expression": "25 + 75"
+    },
+    {
+      "input": "Multiply 18 by 9.",
+      "expression": "18 * 9"
+    },
+    {
+      "input": "What is 15 percent of 800?",
+      "expression": "(15 / 100) * 800"
+    },
+    {
+      "input": "Subtract 45 from 120.",
+      "expression": "120 - 45"
+    },
+    {
+      "input": "Using G = 6.67430\u00d710^-11, M = 5.9722\u00d710^24 kg, and R = 6.371\u00d710^6 m, calculate Earth's escape velocity in km/s",
+      "expression": "sqrt(2 * 6.67430e-11 * 5.9722e24 / 6.371e6) / 1000"
+    },
+    {
+      "input": "Calculate the Schwarzschild radius of a black hole with a mass equal to 10 times the Sun's mass using G = 6.67430\u00d710^-11, c = 299792458 m/s, and M\u2609 = 1.98847\u00d710^30 kg.",
+      "expression": "2 * 6.67430e-11 * 10 * 1.98847e30 / (299792458^2)"
+    },
+    {
+      "input": "Using Planck's constant h = 6.62607015\u00d710^-34 J\u00b7s and the speed of light c = 299792458 m/s, calculate the energy of a photon with wavelength 532 nm.",
+      "expression": "(6.62607015e-34 * 299792458) / (532e-9)"
+    },
+    {
+      "input": "Calculate the gravitational force between Earth and the Moon using G = 6.67430\u00d710^-11, Earth mass = 5.9722\u00d710^24 kg, Moon mass = 7.34767309\u00d710^22 kg, and average distance = 384400000 m.",
+      "expression": "(6.67430e-11 * 5.9722e24 * 7.34767309e22) / (384400000^2)"
+    },
+    {
+      "input": "Using the ideal gas law, calculate the pressure of 3 moles of gas at 450 K confined in a volume of 0.05 m\u00b3 with R = 8.314462618 J/(mol\u00b7K).",
+      "expression": "(3 * 8.314462618 * 450) / 0.05"
+    },
+    {
+      "input": "Calculate the de Broglie wavelength of an electron moving at 2.5\u00d710^6 m/s using electron mass = 9.10938356\u00d710^-31 kg and Planck's constant h = 6.62607015\u00d710^-34 J\u00b7s.",
+      "expression": "6.62607015e-34 / (9.10938356e-31 * 2.5e6)"
+    },
+    {
+      "input": "Calculate the orbital period of a satellite orbiting 500 km above Earth's surface using Earth's radius = 6371000 m, Earth's mass = 5.9722\u00d710^24 kg, and G = 6.67430\u00d710^-11.",
+      "expression": "2 * pi * sqrt(((6371000 + 500000)^3) / (6.67430e-11 * 5.9722e24))"
+    },
+    {
+      "input": "Using Stefan-Boltzmann law with \u03c3 = 5.670374419\u00d710^-8 W/m\u00b2K\u2074, calculate the power radiated by a perfect blackbody sphere of radius 2 m at 1200 K.",
+      "expression": "5.670374419e-8 * (4 * pi * (2^2)) * (1200^4)"
+    },
+    {
+      "input": "Calculate the total energy released if 2 grams of matter are completely converted into energy using E = mc\u00b2 with c = 299792458 m/s.",
+      "expression": "0.002 * (299792458^2)"
+    },
+    {
+      "input": "Using Kepler's Third Law, calculate the orbital period of a planet orbiting a star with twice the Sun's mass at a distance of 3 AU.",
+      "expression": "sqrt((3^3) / 2)"
+    },
+    {
+      "input": "Find the largest prime number less than 1000000, calculate its square root, multiply it by the factorial of 12 divided by the cube of 7, add the sum of the first 1000 natural numbers, subtract log10(1000000000), then divide the final result by the square root of 99999.",
+      "expression": "((sqrt(999983) * (12! / (7^3))) + 500500 - log10(1000000000)) / sqrt(99999)"
+    },
+    {
+      "input": "Evaluate ((15 * (8 + 12) - (50 / (5 + 5))) + ((3^3) * 7) - sqrt(625) + (9! / (8!)).",
+      "expression": "((15 * (8 + 12) - (50 / (5 + 5))) + ((3^3) * 7) - sqrt(625) + (9! / (8!)))"
+    },
+    {
+      "input": "Evaluate ((1000 / (5 * 5)) + (sqrt(625) * 8)) - (3^4).",
+      "expression": "((1000 / (5 * 5)) + (sqrt(625) * 8)) - (3^4)"
+    },
+    {
+      "input": "Calculate sqrt(1024) + (7! / 6!) + 100 / (5 * 2).",
+      "expression": "sqrt(1024) + (7! / 6!) + 100 / (5 * 2)"
+    },
+    {
+      "input": "Evaluate (((2^8) + (3^5) - (4^3)) * sqrt(81)) / 9.",
+      "expression": "(((2^8) + (3^5) - (4^3)) * sqrt(81)) / 9"
+    },
+    {
+      "input": "Compute ((125.5 - 25.5) * (18 / (3 + 3))) + sqrt(1024) - log10(10000) + 6!.",
+      "expression": "((125.5 - 25.5) * (18 / (3 + 3))) + sqrt(1024) - log10(10000) + 6!"
+    },
+    {
+      "input": "Calculate ((9! / 8!) * (7! / 6!)) + (2^10).",
+      "expression": "((9! / 8!) * (7! / 6!)) + (2^10)"
+    },
+    {
+      "input": "Find the GCD and LCM of 123456 and 789012.",
+      "expression": "gcd(123456, 789012)"
+    },
+    {
+      "input": "Determine whether 982451653 is a prime number.",
+      "expression": "isprime(982451653)"
+    },
+    {
+      "input": "Calculate the 50th Fibonacci number.",
+      "expression": "fib(50)"
+    },
+    {
+      "input": "Find the largest signed 64-bit integer and calculate its square root.",
+      "expression": "sqrt(9223372036854775807)"
+    }
+  ],
+  "cache": {
+    "using g = 6.67430\u00d710^-11, m = 5.9722\u00d710^24 kg, and r = 6.371\u00d710^6 m, calculate earth's escape velocity in km/s and then compute the kinetic energy of a 1000 kg spacecraft launched at that speed.": "sqrt(2 * 6.67430e-11 * 5.9722e24 / 6.371e6) / 1000",
+    "calculate the schwarzschild radius of a black hole with a mass equal to 10 times the sun's mass using g = 6.67430\u00d710^-11, c = 299792458 m/s, and m\u2609 = 1.98847\u00d710^30 kg.": "2 * 6.67430e-11 * 10 * 1.98847e30 / (299792458^2)",
+    "using planck's constant h = 6.62607015\u00d710^-34 j\u00b7s and the speed of light c = 299792458 m/s, calculate the energy of a photon with wavelength 532 nm.": "(6.62607015e-34 * 299792458) / (532e-9)",
+    "calculate the gravitational force between earth and the moon using g = 6.67430\u00d710^-11, earth mass = 5.9722\u00d710^24 kg, moon mass = 7.34767309\u00d710^22 kg, and average distance = 384400000 m.": "(6.67430e-11 * 5.9722e24 * 7.34767309e22) / (384400000^2)",
+    "using the ideal gas law, calculate the pressure of 3 moles of gas at 450 k confined in a volume of 0.05 m\u00b3 with r = 8.314462618 j/(mol\u00b7k).": "(3 * 8.314462618 * 450) / 0.05",
+    "calculate the de broglie wavelength of an electron moving at 2.5\u00d710^6 m/s using electron mass = 9.10938356\u00d710^-31 kg and planck's constant h = 6.62607015\u00d710^-34 j\u00b7s.": "6.62607015e-34 / (9.10938356e-31 * 2.5e6)",
+    "calculate the orbital period of a satellite orbiting 500 km above earth's surface using earth's radius = 6371000 m, earth's mass = 5.9722\u00d710^24 kg, and g = 6.67430\u00d710^-11.": "2 * pi * sqrt(((6371000 + 500000)^3) / (6.67430e-11 * 5.9722e24))",
+    "using stefan-boltzmann law with \u03c3 = 5.670374419\u00d710^-8 w/m\u00b2k\u2074, calculate the power radiated by a perfect blackbody sphere of radius 2 m at 1200 k.": "5.670374419e-8 * (4 * pi * (2^2)) * (1200^4)",
+    "calculate the total energy released if 2 grams of matter are completely converted into energy using e = mc\u00b2 with c = 299792458 m/s.": "0.002 * (299792458^2)",
+    "using kepler's third law, calculate the orbital period of a planet orbiting a star with twice the sun's mass at a distance of 3 au.": "sqrt((3^3) / 2)",
+    "find the largest prime number less than 1000000, calculate its square root, multiply it by the factorial of 12 divided by the cube of 7, add the sum of the first 1000 natural numbers, subtract log10(1000000000), then divide the final result by the square root of 99999.": "((sqrt(999983) * (12! / (7^3))) + 500500 - log10(1000000000)) / sqrt(99999)",
+    "evaluate ((15 * (8 + 12) - (50 / (5 + 5))) + ((3^3) * 7) - sqrt(625) + (9! / (8!)).": "((15 * (8 + 12) - (50 / (5 + 5))) + ((3^3) * 7) - sqrt(625) + (9! / (8!)))",
+    "evaluate ((1000 / (5 * 5)) + (sqrt(625) * 8)) - (3^4).": "((1000 / (5 * 5)) + (sqrt(625) * 8)) - (3^4)",
+    "calculate sqrt(1024) + (7! / 6!) + 100 / (5 * 2).": "sqrt(1024) + (7! / 6!) + 100 / (5 * 2)",
+    "evaluate (((2^8) + (3^5) - (4^3)) * sqrt(81)) / 9.": "(((2^8) + (3^5) - (4^3)) * sqrt(81)) / 9",
+    "compute ((125.5 - 25.5) * (18 / (3 + 3))) + sqrt(1024) - log10(10000) + 6!.": "((125.5 - 25.5) * (18 / (3 + 3))) + sqrt(1024) - log10(10000) + 6!",
+    "calculate ((9! / 8!) * (7! / 6!)) + (2^10).": "((9! / 8!) * (7! / 6!)) + (2^10)",
+    "find the gcd and lcm of 123456 and 789012.": "gcd(123456, 789012)",
+    "determine whether 982451653 is a prime number.": "isprime(982451653)",
+    "calculate the 50th fibonacci number.": "fib(50)",
+    "find the largest signed 64-bit integer and calculate its square root.": "sqrt(9223372036854775807)"
+  }
+}
